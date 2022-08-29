@@ -1,16 +1,21 @@
 header{
-    background-color: rgb(226, 167, 253);
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
+    color: rgb(0, 0, 0);
 }
 body{
-    background-color: rgb(251, 224, 255);
+ 
+}
+
+.hero{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
+
 
 .apple-img{
     width: 500px;
@@ -35,9 +40,37 @@ body{
 
 }
 
+.pieImg{
+ width: 200px;
+ height: 200px;
+ border-radius:  15px;
+}
+
 .link-recipes{
     border: 5px solid;
     border-color: white;
     border-radius: 5px;
     padding: 25px;
+}
+
+.appleRecipe{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%;
+    border: solid;
+    border-color:rgb(216, 205, 205);
+    border-radius: 20px;
+    padding: 40px;
+    
+}
+
+.recipeButton{
+    border-color: beige;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.middleButtonHeigth{
+   padding-top: 20px;
 }
